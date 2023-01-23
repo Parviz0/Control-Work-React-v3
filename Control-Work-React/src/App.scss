@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+    body{
+        background: linear-gradient(90deg, rgb(101, 101, 255), rgb(49, 49, 255));
+    }
+    .main{
+        background: linear-gradient(90deg, rgb(101, 255, 101),lime,rgb(0, 197, 0));
+        border-radius: 10px;
+        padding-top: 20px;
+        width: 50%;
+        height: 500px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 25%;
+        margin-top: 100px;
+        .SkeletonBruh{
+            margin-top: 100px;
+        }
+        td{
+            width: 200px;
+        }
+        .verst{
+            width: 75%;
+            display: flex;
+            margin-top: 100px;
+        }
+        .InMain{
+            width: 70%;
+            height: 50px;
+            display: flex;
+            margin-left: 80px;
+            gap: 10px;
+            .bruhRat .bruhGen{
+                div label{
+                    width: 200px;
+                }
+            }
+            .btn{
+                height: 30px;
+                cursor: pointer;
+                width: 100px;
+            }
+            .bruh{
+                border-radius: 5px;
+                height: 180px;
+                width: 200px;
+                position: relative;
+
+            }
+            .input{
+                li{
+                    transition: 800ms;
+                    background-color: rgb(255, 255, 255);
+                    border: solid black 1px;
+                    cursor: pointer;
+                    margin-top: 1px;
+                    color: black;
+                    border-radius: 8px;
+                }
+                input{
+                    padding-left: 10px;
+                    outline: none;
+                    border: solid black 1px;
+                    border-radius: 5px;
+                    height: 40px;
+                    width: 250px;
+                }
+            }
+            .genres{
+                height: 40px;
+                width: 100px;
+                border-radius: 5px;
+                border: solid black 1px;
+                cursor: pointer;
+            }
+            .rating{
+                height: 40px;
+                width: 100px;
+                border-radius: 5px;
+                border: solid black 1px;
+                cursor: pointer;
+            }
+        }
+    }
+}
